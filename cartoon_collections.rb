@@ -11,7 +11,7 @@ end
 
 def list_dwarves(array)
   i = 0
-  array.each_with_index do |name|
+  array.each_with_index do |name, index|
   puts "#{i + 1} #{name}"
     i += 1
   end
